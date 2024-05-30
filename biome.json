@@ -14,15 +14,7 @@
             "recommended": true
         }
     },
-    "overrides": [
-        {
-            "include": [".esbuild/**"],
-            "formatter": {
-                "enabled": false
-            },
-            "linter": {
-                "enabled": false
-            }
-        }
-    ]
+    "files": {
+        "ignore": [".esbuild/**"]
+    }
 }
